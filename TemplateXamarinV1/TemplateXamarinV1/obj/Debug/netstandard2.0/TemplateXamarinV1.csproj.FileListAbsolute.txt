@@ -1,0 +1,11 @@
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\bin\Debug\netstandard2.0\TemplateXamarinV1.deps.json
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\bin\Debug\netstandard2.0\TemplateXamarinV1.dll
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\bin\Debug\netstandard2.0\TemplateXamarinV1.pdb
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\obj\Debug\netstandard2.0\TemplateXamarinV1.AssemblyInfoInputs.cache
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\obj\Debug\netstandard2.0\TemplateXamarinV1.AssemblyInfo.cs
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\obj\Debug\netstandard2.0\TemplateXamarinV1.csproj.CoreCompileInputs.cache
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\obj\Debug\netstandard2.0\TemplateXamarinV1.dll
+C:\Users\Le_Cong\source\repos\TemplateXamarinV1\TemplateXamarinV1\obj\Debug\netstandard2.0\TemplateXamarinV1.pdb
