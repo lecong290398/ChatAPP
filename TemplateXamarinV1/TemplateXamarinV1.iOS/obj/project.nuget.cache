@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "dgSpecHash": "rmNpOpEQhPlydIri8t0uPozWrAYkGhidjw3Omxckq+8+cQoVihLVHz8QvWCc3L8bMzAYVcIQbbg4wjFaGmWuww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Le_Cong\\source\\repos\\TemplateXamarinV1\\TemplateXamarinV1.iOS\\TemplateXamarinV1.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\dryioc.dll\\4.0.7\\dryioc.dll.4.0.7.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\jetbrains.annotations\\2020.2.0-eap\\jetbrains.annotations.2020.2.0-eap.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\netcore.encrypt\\2.0.9\\netcore.encrypt.2.0.9.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\plugin.permissions\\6.0.1\\plugin.permissions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\prism.dryioc.forms\\7.2.0.1422\\prism.dryioc.forms.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\prism.forms\\7.2.0.1422\\prism.forms.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\skiasharp\\2.80.2\\skiasharp.2.80.2.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\skiasharp.views\\2.80.2\\skiasharp.views.2.80.2.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\skiasharp.views.forms\\2.80.2\\skiasharp.views.forms.2.80.2.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xam.plugin.connectivity\\4.0.0.190-beta\\xam.plugin.connectivity.4.0.0.190-beta.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xamarin.essentials.interfaces\\1.5.3.2\\xamarin.essentials.interfaces.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xamarin.forms\\4.7.0.1239\\xamarin.forms.4.7.0.1239.nupkg.sha512",
+    "C:\\Users\\Le_Cong\\.nuget\\packages\\xamarin.simpleping\\1.4.0\\xamarin.simpleping.1.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Prism.DryIoc.Forms from 8.0.0.1909 to 7.2.0.1422. Reference the package directly from the project to select a different version. \r\n TemplateXamarinV1.iOS -> TemplateXamarinV1 -> Prism.DryIoc.Forms (>= 8.0.0.1909) \r\n TemplateXamarinV1.iOS -> Prism.DryIoc.Forms (>= 7.2.0.1422)",
+      "libraryId": "Prism.DryIoc.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials.Interfaces from 1.6.0-pre2 to 1.5.3.2. Reference the package directly from the project to select a different version. \r\n TemplateXamarinV1.iOS -> TemplateXamarinV1 -> Xamarin.Essentials.Interfaces (>= 1.6.0-pre2) \r\n TemplateXamarinV1.iOS -> Xamarin.Essentials.Interfaces (>= 1.5.3.2)",
+      "libraryId": "Xamarin.Essentials.Interfaces",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.1558-pre3 to 4.7.0.1239. Reference the package directly from the project to select a different version. \r\n TemplateXamarinV1.iOS -> TemplateXamarinV1 -> Xamarin.Forms (>= 5.0.0.1558-pre3) \r\n TemplateXamarinV1.iOS -> Xamarin.Forms (>= 4.7.0.1239)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}
