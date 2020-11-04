@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Le_Cong\\source\\repos\\TemplateXamarinV1\\TemplateXamarinV1\\TemplateXamarinV1.csproj": {}
+    "E:\\ChatAPP\\TemplateXamarinV1\\TemplateXamarinV1\\TemplateXamarinV1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Le_Cong\\source\\repos\\TemplateXamarinV1\\TemplateXamarinV1\\TemplateXamarinV1.csproj": {
+    "E:\\ChatAPP\\TemplateXamarinV1\\TemplateXamarinV1\\TemplateXamarinV1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Le_Cong\\source\\repos\\TemplateXamarinV1\\TemplateXamarinV1\\TemplateXamarinV1.csproj",
+        "projectUniqueName": "E:\\ChatAPP\\TemplateXamarinV1\\TemplateXamarinV1\\TemplateXamarinV1.csproj",
         "projectName": "TemplateXamarinV1",
-        "projectPath": "C:\\Users\\Le_Cong\\source\\repos\\TemplateXamarinV1\\TemplateXamarinV1\\TemplateXamarinV1.csproj",
-        "packagesPath": "C:\\Users\\Le_Cong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Le_Cong\\source\\repos\\TemplateXamarinV1\\TemplateXamarinV1\\obj\\",
+        "projectPath": "E:\\ChatAPP\\TemplateXamarinV1\\TemplateXamarinV1\\TemplateXamarinV1.csproj",
+        "packagesPath": "C:\\Users\\lecon\\.nuget\\packages\\",
+        "outputPath": "E:\\ChatAPP\\TemplateXamarinV1\\TemplateXamarinV1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Le_Cong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lecon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.20.2.513.0.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -26,10 +26,8 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Progress\\Telerik Reporting R2 2020\\Examples\\CSharp\\.nuget": {},
-          "C:\\Program Files (x86)\\Progress\\Telerik UI for ASP.NET Core R2 2020\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files (x86)\\Progress\\Telerik UI for WPF R2 2020\\ToolboxNugetPackages\\": {},
-          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,6 +74,18 @@
               "target": "Package",
               "version": "[2.80.2, )"
             },
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[18.2.0.44, )"
+            },
+            "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[18.2.0.44, )"
+            },
+            "Syncfusion.Xamarin.SfComboBox": {
+              "target": "Package",
+              "version": "[18.2.0.44, )"
+            },
             "Xam.Plugin.Connectivity": {
               "target": "Package",
               "version": "[4.0.0.190-beta, )"
@@ -107,7 +117,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

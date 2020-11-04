@@ -10,6 +10,9 @@ Plugin.Permissions
 SkiaSharp
 SkiaSharp.Views.Android
 SkiaSharp.Views.Forms
+Syncfusion.Buttons.XForms.Android
+Syncfusion.Core.XForms.Android
+Syncfusion.SfComboBox.XForms.Android
 Xamarin.AndroidX.Activity
 Xamarin.AndroidX.Annotation
 Xamarin.AndroidX.AppCompat.AppCompatResources

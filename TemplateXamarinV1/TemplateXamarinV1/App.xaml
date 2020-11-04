@@ -1,10 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <prism:PrismApplication
-    x:Class="TemplateXamarinV1.App"
+    xmlns:themes = "clr-namespace:TemplateXamarinV1.Themes;assembly=TemplateXamarinV1"
+             x:Class="TemplateXamarinV1.App"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:prism="http://prismlibrary.com">
     <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <themes:LightTheme />
+            </ResourceDictionary.MergedDictionaries >
+        </ResourceDictionary>
 
         <!--  Application resource dictionary  -->
 

@@ -16,6 +16,9 @@
           "Plugin.Permissions": "6.0.1",
           "Prism.DryIoc.Forms": "8.0.0.1909",
           "SkiaSharp.Views.Forms": "2.80.2",
+          "Syncfusion.Xamarin.Buttons": "18.2.0.44",
+          "Syncfusion.Xamarin.Core": "18.2.0.44",
+          "Syncfusion.Xamarin.SfComboBox": "18.2.0.44",
           "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xamarin.Essentials.Interfaces": "1.6.0-pre2",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
@@ -129,6 +132,50 @@
         "dependencies": {
           "SkiaSharp": "2.80.2",
           "Xamarin.Forms": "5.0.0.1558-pre3"
+        }
+      },
+      "Syncfusion.Licensing/18.2.0.44": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "18.2.0.44",
+            "fileVersion": "18.2.0.44"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/18.2.0.44": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.2.0.44",
+          "Xamarin.Forms": "5.0.0.1558-pre3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Buttons.XForms.dll": {
+            "assemblyVersion": "18.2451.0.44",
+            "fileVersion": "18.2451.0.44"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.2.0.44": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.44",
+          "Xamarin.Forms": "5.0.0.1558-pre3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "18.2451.0.44",
+            "fileVersion": "18.2451.0.44"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.2.0.44": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.2.0.44",
+          "Xamarin.Forms": "5.0.0.1558-pre3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.dll": {
+            "assemblyVersion": "18.2451.0.44",
+            "fileVersion": "18.2451.0.44"
+          }
         }
       },
       "System.Buffers/4.4.0": {
@@ -450,6 +497,34 @@
       "sha512": "sha512-8aRDb98O2cHymB94O8FBj85qMC+MYEY6591wBpHcwgfz4HMo4orSMApD5y8VDmHpA5KR0Yh2ija+HTylz/9CgA==",
       "path": "skiasharp.views.forms/2.80.2",
       "hashPath": "skiasharp.views.forms.2.80.2.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XVShajXwveZnUdmip1tAXz07z9PcLQAoWH0di0z22MHVTAqQyoffOdD4QcQyG3F+pDDYDEGGjkJfV6b8Q4PvMA==",
+      "path": "syncfusion.licensing/18.2.0.44",
+      "hashPath": "syncfusion.licensing.18.2.0.44.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Buttons/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jAzDALCXFZd/ZoVPzWWfLw8mLE2vymG6xqbSa7XxyJmR2xt3XI3PPRzF+3PQZXZjJizaIjR2Q2r3Odwqc33YeQ==",
+      "path": "syncfusion.xamarin.buttons/18.2.0.44",
+      "hashPath": "syncfusion.xamarin.buttons.18.2.0.44.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wN9UnaXmemHWyY7oJ6PhR3rI7LOM2ZXy2EtdboqRL56WHJOVQ/7NDzvRMhDP1v3WgP2BhtsEwD0d+Kl6Z1ewoQ==",
+      "path": "syncfusion.xamarin.core/18.2.0.44",
+      "hashPath": "syncfusion.xamarin.core.18.2.0.44.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfComboBox/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8irmPUXILiQ+wlSBPlLmGoFRokbwgKPAxW9kxITAm9sb/ypi6ExbFj9i0EK3288Ta+AXZaUgWcQcmKLnTTdYkQ==",
+      "path": "syncfusion.xamarin.sfcombobox/18.2.0.44",
+      "hashPath": "syncfusion.xamarin.sfcombobox.18.2.0.44.nupkg.sha512"
     },
     "System.Buffers/4.4.0": {
       "type": "package",

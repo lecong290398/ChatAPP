@@ -6,6 +6,7 @@ using Xamarin.Essentials.Interfaces;
 using Xamarin.Essentials.Implementation;
 using Xamarin.Forms;
 using TemplateXamarinV1.Models;
+using TemplateXamarinV1.Views.Forms;
 
 namespace TemplateXamarinV1
 {
@@ -47,10 +48,16 @@ namespace TemplateXamarinV1
             containerRegistry.RegisterForNavigation<NavigationPage>();
 
             containerRegistry.RegisterForNavigation<MainPage>();
+
+            containerRegistry.RegisterForNavigation<LoginPage>();
         }
 
         protected override async void OnInitialized()
         {
+
+            //Register Syncfusion license
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTMzN0AzMTM4MmUzMjJlMzBYSE9VSFh0VERONGFhbW9DRm9IdWFweGNNQVpQdmRKZHJ6d1NzQjBHdEtVPQ==");
+
             InitializeComponent();
 
             //LocalAccountHelper.LoadUser();
@@ -58,11 +65,11 @@ namespace TemplateXamarinV1
 
             //if (saveUser == null)
             //{
-            //    await NavigationService.NavigateAsync($"/{nameof(NavigationPage)}/{nameof(LoginPage)}");
+                await NavigationService.NavigateAsync($"/{nameof(NavigationPage)}/{nameof(LoginPage)}");
             //}
             //else
             //{
-                await NavigationService.NavigateAsync($"/{nameof(NavigationPage)}/{nameof(Views.MainPage)}");
+               // await NavigationService.NavigateAsync($"/{nameof(NavigationPage)}/{nameof(Views.MainPage)}");
             //}
         }
     }
